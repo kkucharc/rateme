@@ -18,7 +18,7 @@ namespace rateme
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
+			Button button = FindViewById<Button> (Resource.Id.circle);
 			
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
