@@ -23,8 +23,14 @@ namespace rateme
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
 			};
+
+			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.editText1);
+			Button nakedGirlsButton = FindViewById<Button>(Resource.Id.button1);
+			Button callButton = FindViewById<Button>(Resource.Id.button2);
 		}
 	}
+
+
 }
 
 
