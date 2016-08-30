@@ -5,16 +5,20 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px"
-    android:style="@styles/categories">
-    <Button
-        android:id="@+id/circle"
-        android:text="+"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_gravity="bottom|right"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="15dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/circle_button"
-        android:layout_alignParentRight="true" />
+    >
+  <ListView
+      android:id="@+id/listView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  <Button
+      android:id="@+id/circle"
+      android:text="+"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_gravity="bottom|right"
+      android:layout_marginRight="15dp"
+      android:layout_marginBottom="15dp"
+      android:layout_alignParentBottom="true"
+      android:background="@drawable/circle_button"
+      android:layout_alignParentRight="true" />
 </RelativeLayout>
